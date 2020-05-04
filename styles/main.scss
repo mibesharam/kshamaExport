@@ -1,0 +1,116 @@
+$body:#323335;
+$bg-image : url("../images/diamong-grey-1.jpg");
+header{
+    background: #323335;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 340px;
+    height: 100px;
+    margin: 10px;
+}
+.bg-diamond{
+    //background:linear-gradient(40deg,rgba(237, 76, 103,0.9),rgba(0, 98, 102,0.8)) ,$bg-image;
+    background:linear-gradient(-40deg,rgba(237, 76, 103,0.9),rgba(0, 98, 102,0.8)),$bg-image ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+}
+.bg-grey{
+    color : white;
+    h1{
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.showcase{
+    border : 1rem solid rgba(189, 195, 199, 0.274);
+    border-radius: 2%;
+}
+.background-banner{
+    // width: 100%;
+    // height: 60vh;
+    // box-sizing: border-box;
+    // background: rgb(50,51,53);
+    // background: linear-gradient(180deg, rgba(50,51,53,1) 0%, rgba(57,59,61,1) 19%, rgba(101,103,104,1) 48%, rgba(151,152,153,1) 71%, rgba(189,189,190,1) 82%, rgba(255,255,255,1) 99%);
+    // position: absolute;
+    // z-index: -1;
+    width: 100%;
+    height: 60vh;
+    box-sizing: border-box;
+    background: rgb(50,51,53);
+    background: linear-gradient(180deg, rgba(50,51,53,1) 0%, rgba(57,59,61,1) 19%, rgba(101,103,104,1) 48%, rgba(151,152,153,1) 71%, rgba(189,189,190,1) 82%, rgba(255,255,255,1) 99%);
+    position: absolute;
+    z-index: -1;
+}
+#diamond-info{
+    margin-bottom: 20px;
+}
+#pricing{
+    background: url("../images/diamong-grey-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  background-position: center;
+    
+}
+.price{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+}
+.cut-price{
+    text-decoration: line-through;
+}
+.pricetag{
+//     background: rgb(192,86,136);
+// background: linear-gradient(0deg, rgba(192,86,136,1) 0%, rgba(240,240,240,1) 1%, rgba(237,76,103,1) 18%, rgba(181,52,113,1) 100%);
+    background: url("../images/kashama_button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    border-radius : 20px;
+    box-shadow: 0 10px 10px -10px #000000;
+
+    & h5{
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+        line-height: 0;
+    }
+}
+footer{
+    color: white;
+    margin-top: 5%;
+    padding-top: 3%;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(136,136,137,1) 35%, rgba(93,93,95,1) 57%, rgba(56,57,59,1) 76%, rgba(50,51,53,1) 100%);
+}
+#today-stones{
+    margin-top: 3rem;
+}
+#diamond-info{
+    margin-top: 3rem;
+    & .row{
+        margin-top: 2rem;
+    }
+    & .card-header{
+        color: white;
+        background-color: #444648;
+    }
+    & .card-body{
+        padding: 0;
+    }
+}
+.br-2{
+    border-width: .2rem;
+}
+.footer-icon{
+    position: relative;
+    bottom: 25%;
+}

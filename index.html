@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/afb7177868.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/main.js"></script>
+    <title>Kshama Exports | Diamonds</title>
+</head>
+<body>
+        
+    <header>
+        <img src="./images/logo.jpg" class="logo">
+    </header>
+    <section id="banner">
+        <div class="background-banner"></div>
+        <div class="container bg-grey">
+                
+                <h1 class="title">Stock No : V-93</h1>
+                <div class="row row-eq-height">
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./images/v-93.jpg" width="100%" class="showcase">
+                    </div>
+                    <div class="col-lg-4 col-md-6 ">
+                        <video id="videoPlayer" class="showcase" src="http://www.kshamaexport.com/videos/V-93.mp4" width="100%" loop autoplay></video>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <iframe id="pdfViewer" class="showcase" width="100%" height="100%"></iframe>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section id="diamond-info">
+        <div class="container">
+            <div class="row">
+          <div class="col-lg-7">
+                <div class="card">
+                        <h5 class="card-header">Featured</h5>
+                        <div class="card-body">
+                                <table class="table table-striped"> 
+                                        
+                            <tbody>
+                            <tr>
+                                <th>SHAPE :</th>
+                                <td><span id="shape">-</span></td> 
+                                <th>WEIGTH :</th>
+                                <td><span id="weigth">-</span></td>
+                            </tr>
+                            <tr>
+                                <th>COLOR :</th>
+                                <td><span id="color">-</span></td>
+                                <th>FANCY COLOR :</th>
+                                <td><span id="fancy_color">-</span></td>
+                            </tr>
+                            <tr>
+                                <th>CLARITY :</th>
+                                <td><span id="clarity">Label</span></td>
+                                <th>CUT GRADE :</th>
+                                <td> <span id="cutGrade"></span></td> 
+                            </tr>
+                            <tr>
+                                <th>FLUORESCENCE :</th>
+                                <td><span id="fluorescene">Label</span></td>
+                                <th>POLISH :</th>
+                                <td><span id="polish">Label</span></td>
+                            </tr>
+
+                            <tr>
+                                <th>LAB :</th>
+                                <td><span id="lab">Label</span></td>
+                                <th>SYMMETRY :</th>
+                                <td><span id="symmentry">Label</span></td> 
+                            </tr>
+                            <tr>
+                                <th>Certificate No :</th>
+                                <td><span id="reportNo">-</span></td>
+                                <th>AVAILABILITY :</th>
+                                <td> <span id="availability">-</span> </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                        </div>
+                      </div>
+          </div>
+          <div class="col-lg-5">
+                <div class="card">
+                        <h5 class="card-header">Featured</h5>
+                        <div class="card-body">
+                                <table class="table table-striped">
+                                        <tbody>
+                                            <tr>
+                                                <th>MEASUREMENT :</th>
+                                                <td><span id="measure">Label</span></td>
+                                            </tr>
+                                            <tr>
+                                                 <th>L/W :</th>
+                                                 <td>lw</td>
+                                            </tr>
+                                            <tr>
+                                                <th>TABLE :</th>
+                                                <td><span id="table">Label</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th>DEPTH :</th>
+                                                <td><span id="depth">Label</span> %</td>
+                                            </tr>
+                                            <tr>
+                                                <th>GIRDLE :</th>
+                                                <td><span id="girdlePct"></span> %</td>
+                                            </tr>
+                                            <tr>
+                                                <th>CULET :</th>
+                                                <td> <span id="culet">Label</span>  </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                        </div>
+                      </div>
+          </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">Feature</div>
+                        <div class="card-body">
+                                <table class="table table-striped">
+                                        <tbody><tr>
+                                            <th>KEY TO SYMBOL :</th>
+                                            <td><span id="keySymbol"></span></td>
+                                        </tr>
+                                        <tr>
+                                            <th>MEMBER COMMENT :</th>
+                                            <td> <span id="memberComment"></span> </td>
+                                        </tr>
+                                    </tbody></table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header">Feature</div>
+                        <div class="card-body">
+                                <table class="table table-striped">
+                                       <tbody><tr>
+                                            <th>CENTER INCLUSION :</th>
+                                            <td> <span id="centerInclusion">-</span> </td>
+                                            <th>BLACK INCLUSION :</th>
+                                            <td> <span id="blackInclusion"></span> </td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <th>OPEN INCLUSION :</th>
+                                            <td> <span id="openInclusion"></span> </td>
+                                            <th>SHADE :</th>
+                                            <td> <span id="shade">shade</span> </td>
+                                        </tr>
+                                        <tr>
+                                            <th>MILKY :</th>
+                                            <td> <span id="milky"></span> </td>
+                                            <th>EYE CLEAN :</th>
+                                            <td> <span id="eyeClean"></span> </td>
+                                        </tr>
+                                    </tbody></table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="container">
+           <div class="row p-3">
+               <div class="col-lg-4 ">
+                   <div class="pricetag p-2 text-center">
+                       <h3>Price/carat</h3>
+                       <span class="price">10.00$</span>
+                   </div>
+               </div>
+               <div class="col-lg-4">
+                    <div class="pricetag p-2 text-center">
+                        <h3>Piece Price</h3>
+                        <span class="cut-price price">99.00$</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="pricetag p-2 text-center">
+                        <h3>Final Price</h3>
+                        <span class="price">90.00$</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-4">
+                <div class="col-lg-12 text-center">
+                    <button class="btn btn-info btn-lg br-2" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-paper-plane" ></i>  INQUIRE NOW</button>
+                    <button class="btn btn-warning btn-lg br-2"><i class="fas fa-share-alt"></i>  BUY NOW</button>
+                    <button class="btn btn-success btn-lg br-2"><i class="fas fa-share-alt"></i>  SHARE THIS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="container" id="modals-container">
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <div class="modal-title" id="exampleModalLabel">
+                              <h5>Inquiry Now !</h5>
+                              <p>We Will Get back to you Shortly.</p>
+                            </div>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="form-group">
+                              <label>Name :</label>
+                              <input class="form-control" type="text" placeholder="Type Name Here">
+                          </div>
+                          <div class="form-group">
+                                <label>Email :</label>
+                                <input class="form-control" type="email" placeholder="Enter your Email Id">
+                            </div>
+                            <div class="form-group">
+                                <label>Message :</label>
+                                <textarea class="form-control" rows="4" placeholder="Enter Message Here"></textarea>
+                            </div>
+                            
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-success">Inquire Now.</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    </section>
+
+    <section id="today-stones">
+        <div class="container">
+                
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="./images/v-93.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">V-93</h3>
+                        <p class="card-text"> PEAR   0.31      FANCY BROWNISH PINK   VVS1   FAINT      GOOD    VG   GIA </p>
+                        <button  class="btn btn-primary btn-block"  data-toggle="modal" data-target="#exampleModal">Inquiry</button>
+                    </div>
+                        
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/v-93.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">V-93</h3>
+                        <p class="card-text"> PEAR   0.31      FANCY BROWNISH PINK   VVS1   FAINT      GOOD    VG   GIA </p>
+                        <button  class="btn btn-primary btn-block"  data-toggle="modal" data-target="#exampleModal">Inquiry</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/v-93.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">V-93</h3>
+                        <p class="card-text"> PEAR   0.31      FANCY BROWNISH PINK   VVS1   FAINT      GOOD    VG   GIA </p>
+                        <button  class="btn btn-primary btn-block"  data-toggle="modal" data-target="#exampleModal">Inquiry</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./images/v-93.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">V-93</h3>
+                        <p class="card-text"> PEAR   0.31      FANCY BROWNISH PINK   VVS1   FAINT      GOOD    VG   GIA </p>
+                        <button  class="btn btn-primary btn-block"  data-toggle="modal" data-target="#exampleModal">Inquiry</button>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <img src="images/logo-small.png" class="footer-icon" width="20%">
+                </div>
+                <div class="p-2">
+                    <div class="d-flex flex-row justify-content-between">
+                        <div class="p-2">
+                            <p>B-402,Rushabh Apt.,</br>
+                                Hat Falia, Mahidharpura,Surat-Gujarat(IN)</br>
+                                Mr.Ujal Sanghavi(Vicky)</p>
+                            <ul>
+
+                            </ul>
+                        </div>
+                        <div class="p-2">
+                                <ul>
+                                    <li> <a href="#">vicky69751</a> </li>
+                                    <li> <a href="#">vicky69751</a> </li>
+                                    <li> <a href="#">+91 9601019285</a> </li>
+                                    <li> <a href="#">Rapnet : 106678</a> </li>
+                                    <li> <a href="#">EMail : Vicky_sanghavi@yahoo.com</a> </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/">kshamaexport.com</a>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
